@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mohammad Hoseini</title>
+<style>
+   .ulnav {
+       position: fixed;
+       width:100%;
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color:lightblue;
+   }
+   .linav {
+        float: left;
+   }
+   .linav a {  
+       text-align: center;
+       display: block; 
+       padding: 8px 16px;
+       color: none;
+       text-decoration: none;
+   }
+   .linav a:hover:not(.active) {
+       background-color:lightgray;
+   }
+   .active{
+       background-color: lightgreen;
+   }
+</style>
+</head>
+<body>
+<ul class="ulnav">
+    <li class="linav"><a href="#Home">Home</a></li>
+    <li class="linav"><a href="#Gallery">Gallery</a></li>
+    <li class="linav"><a href="#Articles">Articles</a></li>
+    <li style="float:right" class="linav"><a href="#About">About me</a></li>
+</ul>
+</body>
+</html>
