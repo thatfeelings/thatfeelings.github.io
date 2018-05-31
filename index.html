@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<title>This is my test</title>
-<style> 
-tabel, td, th {
-    border: 5px
-}
-table {
-    border-spacing: 20px
-    }
+<head>
+<title>Mohammad Hoseini</title>
+<style>
+   .ulnav {
+       position: fixed;
+       width:100%;
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color:lightblue;
+   }
+   .linav {
+        float: left;
+   }
+   .linav a {  
+       text-align: center;
+       display: block; 
+       padding: 8px 16px;
+       color: none;
+       text-decoration: none;
+   }
+   .linav a:hover:not(.active) {
+       background-color:lightgray;
+   }
+   .active{
+       background-color: lightgreen;
+   }
 </style>
 </head>
-<body style="background-color:lightseagreen">
-<h1 align="center">About mee</h1>
-<hr/ width="70%">
-<h4 style="text-align:center;color:crimson">In below im ganna talk about things that i work on</h4>
-<table style="width:100%;background-color:cadetblue">
-<tr style="background-color:white">
-    <td style="width:70%"></td>
-    <td style="width:30%"></td>
-</table>
+<body>
+<ul class="ulnav">
+    <li class="linav"><a href="#Home">Home</a></li>
+    <li class="linav"><a href="#Gallery">Gallery</a></li>
+    <li class="linav"><a href="#Articles">Articles</a></li>
+    <li style="float:right" class="linav"><a href="#About">About me</a></li>
+</ul>
 </body>
 </html>
